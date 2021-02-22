@@ -1,6 +1,6 @@
 # php-js-map-demo
 
-This is a proof of concept for simple mapping tool visualization
+This is a proof of concept for simple mapping tool visualization.
 
 ### Development requirements
 - no database
@@ -8,8 +8,11 @@ This is a proof of concept for simple mapping tool visualization
 - Bootstrap 4
 - use npm for "modules" 
 - use Highcharts.js or Leaflet.js  
-- one button generates random data, that is passed to front-end for Map visualisation
-- have a button that adds dynamically new entry to existing data and updates the Map
+- first button both generates random data points and creates the area/heatmap. This is passed to the front-end for Map visualisation.
+- second button adds each entry dynamically to existing data and updates the Map
+- map has a switch button that can toggle between data points and area/heatmap
+- all data are represented in a sortable table
+- each data point / area on the map can be clicked to show more details
 
 ### Process
 - copy all files to your own repository
